@@ -40,7 +40,7 @@ This is  paragraph and paragraph in markdown doesnot require any special symbol 
 [Link to LCO](https://learncodeonline.in "LCO")
 
 <!-- How to put images -->
-![Headphone](./images/headphones.JPG "Headphone")
+![Headphone](./images/headphones.jpg "Headphone")
 
 # My Websites
 Here are my portfolio websites

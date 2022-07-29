@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Oswald","sans-serif";
+}
+
+/* Working on NavBar */
+nav{
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+}
+.nav-items{
+    flex-grow: 0.5;
+    display: flex;
+    text-align: center;
+    margin-left: 30px;  
+}
+.nav-item{
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav>img:nth-child(3){
+    width: 200px;
+}
+nav>img:nth-child(1){
+    width: 110px;
+}
+.active-item{
+    color: #FE5E35;
+}
+
+/* Working on intro section */
+
+.intro-section{
+    display: flex;
+    
+}
+.headphone-div>img:nth-child(3){
+    width: 350px;
+    margin-right: 80px;
+    /* position: relative; 
+    top: 10%;
+    right: 10%; */
+}
+.headphone-div>img:nth-child(1){
+    width: 120px;
+    position: absolute;
+    top: 60%;
+    right: 25%;
+}
+.discount-content{
+    position: absolute;
+    top: 65%;
+    right: 27%;
+    color: #ffffff;
+}
+.dots{
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    height: 30px;
+    /* background-color: red; */
+}
+
+.dot{
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+.black-dot{
+    background-color: #1f1f1f;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.yellow-dot{
+    background-color: yellow;
+}
+.left-section{
+    flex-grow: 1;
+}
+h3{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 40px;
+    
+}
+.left-section>h1:nth-child(2){
+    font-weight: 700;
+    font-size: 80px;
+    margin: 20px 40px;
+}
+.sub-headline{
+    font-weight: 400;
+    margin: 20px 80px;
+} 
+.sub-headline>img{
+    background-color: #FE5E35;
+    /* border: 1px solid orange;
+    box-sizing: border-box; */
+    border-radius: 50%;
+    padding: 4px;
+    
+}
+
+.action-btn{
+    
+    background-color: #FE5E35;
+    padding: 10px 30px;
+    margin: 20px 40px;
+    border-radius: 30px;
+    border-color: #FE5E35;
+    color: #ffffff;
+}
+.cart{
+    margin-left: 22%;
+}
+.text{
+    margin: 20px 40px;
+    font-weight: 200;
+    width: 60%;
+}
+span{
+    position: relative;
+    bottom: 10px;
+}
